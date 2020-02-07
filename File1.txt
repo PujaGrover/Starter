@@ -1,1 +1,142 @@
-This is going to be my first exciting commit.
+Microsoft Windows [Version 10.0.17763.973]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Puja\Per Scholas Dallas\git>git clone https://github.com/PujaGrover/Starter.git
+Cloning into 'Starter'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+
+C:\Users\Puja\Per Scholas Dallas\git>dir
+ Volume in drive C is Windows
+ Volume Serial Number is C643-015C
+
+ Directory of C:\Users\Puja\Per Scholas Dallas\git
+
+02/06/2020  08:58 PM    <DIR>          .
+02/06/2020  08:58 PM    <DIR>          ..
+02/06/2020  08:58 PM    <DIR>          Starter
+               0 File(s)              0 bytes
+               3 Dir(s)  592,226,435,072 bytes free
+
+C:\Users\Puja\Per Scholas Dallas\git>cd Starter
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>dir
+ Volume in drive C is Windows
+ Volume Serial Number is C643-015C
+
+ Directory of C:\Users\Puja\Per Scholas Dallas\git\Starter
+
+02/06/2020  08:58 PM    <DIR>          .
+02/06/2020  08:58 PM    <DIR>          ..
+02/06/2020  08:58 PM                42 README.md
+               1 File(s)             42 bytes
+               2 Dir(s)  592,226,430,976 bytes free
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/development
+  remotes/origin/initial
+  remotes/origin/master
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>git branch
+* master
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>git branch -a
+* master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/development
+  remotes/origin/initial
+  remotes/origin/master
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>git checkout initial
+Switched to a new branch 'initial'
+Branch 'initial' set up to track remote branch 'initial' from 'origin'.
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>git branch -a
+* initial
+  master
+  remotes/origin/HEAD -> origin/master
+  remotes/origin/development
+  remotes/origin/initial
+  remotes/origin/master
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>git status
+On branch initial
+Your branch is up to date with 'origin/initial'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        File1.txt
+        Users.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>git add .
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>git status
+On branch initial
+Your branch is up to date with 'origin/initial'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   File1.txt
+        new file:   Users.java
+
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>git reset
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>git status
+On branch initial
+Your branch is up to date with 'origin/initial'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        File1.txt
+        Users.java
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>git add .
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>git status
+On branch initial
+Your branch is up to date with 'origin/initial'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        new file:   File1.txt
+        new file:   Users.java
+
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>git commit -m "This is my first commit to Github."
+[initial 935c610] This is my first commit to Github.
+ 2 files changed, 7 insertions(+)
+ create mode 100644 File1.txt
+ create mode 100644 Users.java
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>git status
+On branch initial
+Your branch is ahead of 'origin/initial' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>
+C:\Users\Puja\Per Scholas Dallas\git\Starter>git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 413 bytes | 206.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0)
+To https://github.com/PujaGrover/Starter.git
+   5287c3d..935c610  initial -> initial
+
+C:\Users\Puja\Per Scholas Dallas\git\Starter>
